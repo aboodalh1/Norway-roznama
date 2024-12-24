@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class DioHelper {
-  final baseUrl = 'https://api.behealthy-dxb.com/api';
+  final baseUrl = '';
   final Dio dio;
   static String ? _token;
   DioHelper(this.dio);
